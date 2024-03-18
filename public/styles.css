@@ -1,0 +1,110 @@
+.container-fluid{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+.col-sm-10{
+    box-shadow: 5px 5px 5px 5px rgba(0.3, 0.3, 0.3, 0.3);
+    margin-top: 2rem; 
+}
+.titre_module{
+    background-color: black;
+    width: 70%;
+    height: 50px;
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+    margin-left: 15%;
+    margin-bottom: 2rem;
+    border-radius: 5%;
+}
+
+.titre_module2{
+    background-color: black;
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+    margin-left: 15%;
+    margin-bottom: 2rem;
+    border-radius: 5%;
+}
+
+.titre_module3{
+    background-color: black;
+    width: 80%;
+    height: 80px;
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+    margin-left: 15%;
+    margin-bottom: 2rem;
+    border-radius: 5%;
+}
+
+
+.grand_titre{
+    border-top: 3px solid #000; 
+    border-bottom: 3px solid #000; 
+    border-left: 1px solid;
+    border-right: 1px solid;
+    margin-bottom: 1rem;
+    background-color: grey;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    color: white;
+}
+.sous_titre{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.titre_table{
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+caption{
+    text-align: center;
+}
+.consignes{
+    width: 80%;
+    justify-items: center;
+    margin-left: 20%;
+}
+.indication{
+    width: 80%;
+    justify-items: center;
+    margin-left: 12%;
+}
+
+.custom-td {
+    width: 15px;
+    height: 50px;
+}
+
+.d-flex{
+    width:100%;
+    height: 50%;
+}
+
+.custom-table {
+    font-size: 50px !important;
+}
+.custom-td2 {
+    background-color: #000;
+    width: 150px;
+}
+.table thead th[scope="row"] {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #fff; /* Fond blanc pour les <th> figées */
+}
+
+.libelle{
+    background-color: bisque !important;
+}
+
