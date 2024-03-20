@@ -36,7 +36,6 @@
                                     <img class="logo-dark logo-img" src="./images/logo-dark.png" srcset="./images/logo-dark2x.png 2x" alt="logo-dark">
                                 </a>
                             </div><!-- .nk-header-brand -->
-                           
                             @auth
                                 @if (Auth::user()->role== 'admin')
                                     <div class="nk-header-menu is-light">
